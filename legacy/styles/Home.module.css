@@ -1,0 +1,60 @@
+.container {
+  padding: 4px;
+}
+
+.grid {
+  position: relative;
+  width: 100%;
+}
+
+.gridSizer {
+  width: 25%;
+}
+
+.card {
+  padding: 4px;
+  width: 25%;
+  margin-bottom: 8px;
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  box-sizing: border-box;
+  transition: transform 0.2s ease;
+}
+
+.card > div {
+  border: 1px solid #e0e0e0;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover > div {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.imageWrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.info {
+  padding: 16px;
+}
+
+.title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin: 0 0 8px 0;
+  line-height: 1.4;
+  color: #333;
+}
+
+.views {
+  font-size: 0.85rem;
+  color: #888;
+  margin: 0;
+}

@@ -1,0 +1,154 @@
+html,
+body {
+  background-color: #f8fafc;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
+    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* header css */
+.navbar {
+  background-color: #dc3545;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.navbar-logo a{
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 30px;
+}
+
+.navbar-link {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.navbar-link:hover {
+  text-decoration: underline;
+}
+
+/* footer css */
+
+.footer {
+  background-color: #2c1810;
+  color: #f5f5f5;
+  padding: 40px 0 0 0;
+  margin-top: auto;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 40px;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #ff7a7a;
+}
+
+.footer-description {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #cccccc;
+  margin-bottom: 0;
+}
+
+.footer-heading {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-links a {
+  color: #cccccc;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.2s;
+}
+
+.footer-links a:hover {
+  color: #ff7a7a;
+}
+
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.footer-bottom {
+  background-color: #1a0f0a;
+  margin-top: 30px;
+  padding: 20px 0;
+  border-top: 1px solid #3d2617;
+}
+
+.footer-bottom-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-copyright {
+  font-size: 12px;
+  color: #999999;
+  margin: 0;
+}
+
+.footer-bottom-links {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-bottom-links a {
+  color: #999999;
+  text-decoration: none;
+  font-size: 12px;
+  transition: color 0.2s;
+}
+
+.footer-bottom-links a:hover {
+  color: #ff7a7a;
+}
