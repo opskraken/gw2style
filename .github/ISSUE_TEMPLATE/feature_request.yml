@@ -92,7 +92,7 @@ body:
     attributes:
       label: Additional Context
       description: Add screenshots, wireframes, or related issue references.
-      placeholder: e.g., "Related Issues: [#123]"
+      placeholder: Related Issues: [#123]
       value: ""
     validations:
       required: false
