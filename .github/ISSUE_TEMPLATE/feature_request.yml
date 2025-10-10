@@ -14,7 +14,6 @@ body:
       label: Problem/Need
       description: What user pain point does this solve?
       placeholder: e.g., "No central platform for GW2 outfit sharing"
-      value: ""
     validations:
       required: true
   - type: textarea
@@ -25,7 +24,6 @@ body:
       placeholder: |
         High-level: e.g., "Web app for uploading and browsing outfits"
         User Story: As a [user type], I want [feature] so that [benefit].
-      value: ""
     validations:
       required: true
   - type: textarea
@@ -37,7 +35,6 @@ body:
         - Inputs/Outputs: e.g., "Input: CLI command; Output: Scaffolded folder."
         - Edge Cases: e.g., "Handle multiple languages."
         - Tech Stack: e.g., "React, MongoDB, Netlify"
-      value: ""
     validations:
       required: false
   - type: textarea
@@ -49,7 +46,6 @@ body:
         - [ ] e.g., "Works on Web; <5s execution."
         - [ ] e.g., "Tested with sample data."
         - [ ] e.g., "Docs updated in README."
-      value: ""
     validations:
       required: false
   - type: dropdown
@@ -84,7 +80,6 @@ body:
       label: Alternatives Considered
       description: Any alternative approaches considered?
       placeholder: e.g., "Manual vs. automated approach."
-      value: ""
     validations:
       required: false
   - type: textarea
@@ -92,7 +87,6 @@ body:
     attributes:
       label: Additional Context
       description: Add screenshots, wireframes, or related issue references.
-      placeholder: Related Issues...
-      value: ""
+      placeholder: e.g., "Related Issues: [#123]"
     validations:
       required: false
