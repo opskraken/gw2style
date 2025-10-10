@@ -1,33 +1,29 @@
-# Roadmap: gw2style MVP & Beyond
+# Feature: [Feature Name]
 
-## Overview
-- **MVP Goal**: Launch a working prototype to validate enable sharing of GW2 character outfits.
-- **Launch Timeline**: Q1 2026.
-- **Success Metrics**: 200 outfits shared, 100 active users.
+## Problem Solved
+[Brief: 1-2 sentences on user need. e.g., "Current setup requires 10+ manual steps, frustrating new users."]
 
-## Feature Prioritization (MoSCoW Method)
-Use this table to triage features. Focus on Must-Haves for MVP.
+## Solution Overview
+[High-level: What it does. e.g., "Automates env setup with a single CLI flag."]
 
-| Priority | Feature Name | Description | Status | Est. Effort (Story Points) | Dependencies |
-|----------|--------------|-------------|--------|----------------------------|--------------|
-| **Must-Have (MVP Core)** | [Feature 1] | [TBD: Core feature for gw2style. Why: Enables enable sharing of GW2 character outfits.] | Not Started | 5 | None |
-| **Must-Have (MVP Core)** | [Feature 2] | [TBD: Essential for MVP launch.] | Not Started | 8 | Feature 1 |
-| **Should-Have (Post-MVP)** | [Feature 3] | [TBD: Enhances usability.] | Planned | 3 | Feature 2 |
-| **Could-Have (Nice-to-Have)** | [Feature 4] | [TBD: Nice-to-have for engagement.] | Backlog | 2 | None |
-| **Won't-Have (Out of Scope)** | [Feature 5] | [TBD: Too complex for v1.] | Future | 13 | N/A |
+## User Flow
+1. [Step 1: e.g., "Run `project init --lang=python`."]
+2. [Step 2: e.g., "Auto-installs deps and creates boilerplate."]
+3. [Step 3: e.g., "User reviews and commits."]
 
-## Phases
-### Phase 1: MVP Launch (v0.1.0)
-- Core features: [Feature 1, Feature 2].
-- Testing: Unit tests + beta user feedback.
-- Risks: [TBD: e.g., API rate limits].
+## Technical Details
+- **Implementation**: [e.g., "Bash script using npm/yarn equivalents."]
+- **Dependencies**: [e.g., "None external."]
+- **Non-Functional**: [e.g., "Cross-platform; <10s runtime."]
 
-### Phase 2: Iteration (v0.2.0)
-- Based on feedback: [Add Feature 3].
-- Timeline: 4 weeks post-launch.
+## Acceptance Criteria
+- [ ] [Measurable test: e.g., "Creates valid project in 3 langs."]
+- [ ] [e.g., "No errors on clean install."]
 
-## How to Contribute
-- Propose features via [GitHub Issues](https://github.com/NesoHQ/gw2style/issues/new?template=feature_request.md).
-- Vote on priorities with reactions (👍 for high-impact).
+## Status & Roadmap
+- **Current**: [Implemented/Planned/Done.]
+- **Version**: [e.g., "MVP v0.1."]
+- **Next**: [e.g., "Add JS support in v0.2."]
 
-*Last Updated: 2025-10-10. Feedback welcome!*
+## Contribution Notes
+Help wanted? [e.g., "PRs for testing welcome!"] See CONTRIBUTING.md.
