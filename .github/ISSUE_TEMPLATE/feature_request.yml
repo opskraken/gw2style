@@ -1,0 +1,98 @@
+name: Feature Request
+description: Suggest a new feature for the gw2style MVP
+title: '[Feature] gw2style - Brief title'
+labels: ['enhancement', 'mvp']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Feature Description Template
+        Use this form to propose a new feature for the gw2style MVP. Provide clear details to help prioritize and implement it.
+  - type: textarea
+    id: problem-need
+    attributes:
+      label: Problem/Need
+      description: What user pain point does this solve?
+      placeholder: e.g., "No central platform for GW2 outfit sharing"
+      value: ""
+    validations:
+      required: true
+  - type: textarea
+    id: proposed-solution
+    attributes:
+      label: Proposed Solution
+      description: Describe what the feature should do and include a user story.
+      placeholder: |
+        High-level: e.g., "Web app for uploading and browsing outfits"
+        User Story: As a [user type], I want [feature] so that [benefit].
+      value: ""
+    validations:
+      required: true
+  - type: textarea
+    id: detailed-specs
+    attributes:
+      label: Detailed Specs
+      description: Provide technical details for the feature.
+      placeholder: |
+        - Inputs/Outputs: e.g., "Input: CLI command; Output: Scaffolded folder."
+        - Edge Cases: e.g., "Handle multiple languages."
+        - Tech Stack: e.g., "React, MongoDB, Netlify"
+      value: ""
+    validations:
+      required: false
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: Acceptance Criteria
+      description: List measurable criteria for feature completion.
+      placeholder: |
+        - [ ] e.g., "Works on Web; <5s execution."
+        - [ ] e.g., "Tested with sample data."
+        - [ ] e.g., "Docs updated in README."
+      value: ""
+    validations:
+      required: false
+  - type: dropdown
+    id: mvp-priority
+    attributes:
+      label: MVP Fit & Priority
+      description: How critical is this feature for the MVP?
+      options:
+        - Must-Have (v0.1)
+        - Should-Have (Post-MVP)
+        - Could-Have (Nice-to-Have)
+        - Won't-Have (Out of Scope)
+      default: 0
+    validations:
+      required: true
+  - type: dropdown
+    id: effort
+    attributes:
+      label: Effort Estimate
+      description: Estimated effort to implement the feature.
+      options:
+        - Low (1-2 days)
+        - Medium (3-7 days)
+        - High (1-2 weeks)
+        - Very High (2+ weeks)
+      default: 0
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Any alternative approaches considered?
+      placeholder: e.g., "Manual vs. automated approach."
+      value: ""
+    validations:
+      required: false
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Add screenshots, wireframes, or related issue references.
+      placeholder: e.g., "Related Issues: [#123]"
+      value: ""
+    validations:
+      required: false
