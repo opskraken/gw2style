@@ -31,4 +31,4 @@ Use this table to triage features. Focus on Must-Haves for MVP.
 - Propose features via [GitHub Issues](https://github.com/NesoHQ/gw2style/issues/new?template=feature_request.md).
 - Vote on priorities with reactions (👍 for high-impact).
 
-*Last Updated: 2025-10-23. Feedback welcome!*
+*Last Updated: 2025-10-24. Feedback welcome!*
